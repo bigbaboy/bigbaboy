@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="title desc">
+<title id="title">Le Minh Dat — Data and Applied AI</title>
+<desc id="desc">Professional profile banner with navy background, teal accents and connected data nodes.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#172b3d"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#60a5fa"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#cbd5e1" stroke-opacity=".045"/></pattern>
+</defs>
+<rect width="1280" height="380" rx="24" fill="url(#bg)"/>
+<rect width="1280" height="380" rx="24" fill="url(#grid)"/>
+<rect x="64" y="64" width="44" height="4" rx="2" fill="#5eead4"/>
+<text x="124" y="71" font-family="Arial,sans-serif" font-size="15" letter-spacing="3" fill="#94a3b8">DATA · BUSINESS · TECHNOLOGY</text>
+<text x="64" y="158" font-family="Arial,sans-serif" font-size="60" font-weight="700" fill="#f8fafc">LÊ MINH ĐẠT</text>
+<text x="66" y="210" font-family="Arial,sans-serif" font-size="27" fill="#5eead4">Turning business questions into practical applications.</text>
+<text x="66" y="264" font-family="Arial,sans-serif" font-size="19" fill="#cbd5e1">Applied AI  /  Data Analytics  /  Business Applications</text>
+<text x="66" y="329" font-family="Arial,sans-serif" font-size="15" letter-spacing="2" fill="#94a3b8">DA NANG, VIETNAM</text>
+<g stroke="url(#accent)" stroke-width="2" stroke-opacity=".5" fill="none">
+<path d="M1010 86L1140 130L1068 238L1190 295M1010 86L958 204L1068 238M1140 130L1190 295M958 204L994 312L1068 238"/>
+<circle cx="1068" cy="238" r="62" stroke-opacity=".15"/>
+<circle cx="1068" cy="238" r="86" stroke-opacity=".08"/>
+</g>
+<g fill="#5eead4"><circle cx="1010" cy="86" r="7"/><circle cx="1140" cy="130" r="9"/><circle cx="1068" cy="238" r="13"/><circle cx="958" cy="204" r="6"/><circle cx="1190" cy="295" r="7"/><circle cx="994" cy="312" r="5"/></g>
+<rect x="64" y="365" width="1152" height="2" rx="1" fill="url(#accent)" opacity=".5"/>
+</svg>
