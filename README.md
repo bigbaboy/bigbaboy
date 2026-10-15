@@ -1,97 +1,93 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Lê Minh Đạt — Applied AI, Data Analytics and Business Applications" width="100%" />
+<img src="./assets/header.svg" alt="Lê Minh Đạt — Applied AI, Data Analytics and Business Applications" width="100%" />
 </p>
 
+<p align="center"><b>Data Science &amp; Business Analytics graduate · MBA student · Da Nang, Vietnam</b></p>
+<p align="center">I build prototypes that connect business needs, data and useful software.</p>
 <p align="center">
-  <b>Data Science &amp; Business Analytics graduate · MBA student · Da Nang, Vietnam</b>
-</p>
-<p align="center">
-  Exploring how data and AI can turn everyday business questions into useful applications.
-</p>
-<p align="center">
-  <a href="#selected-work">Explore my work</a> &nbsp; / &nbsp;
-  <a href="#toolkit">My toolkit</a> &nbsp; / &nbsp;
-  <a href="https://github.com/bigbaboy?tab=repositories">All repositories</a>
+<a href="#featured-demo"><b>▶ Try the attendance demo</b></a> &nbsp; · &nbsp;
+<a href="#selected-projects">Selected projects</a> &nbsp; · &nbsp;
+<a href="#toolkit">Toolkit</a> &nbsp; · &nbsp;
+<a href="https://github.com/bigbaboy?tab=repositories">All repositories ↗</a>
 </p>
 
----
+### About
 
-### A little about me
+I'm **Đạt**, a graduate of the University of Economics — The University of Danang, currently pursuing an **MBA**. My work spans **document-based AI assistants, business dashboards and practical web tools**.
 
-Hi, I'm **Đạt**. I work at the intersection of **business understanding, data analysis and applied AI**.
+I independently developed an electricity advisory chatbot for my graduation project during a business department internship. I also build teaching attendance tools and contribute to academic projects in analytics and customer segmentation.
 
-- 🎓 Graduated in **Data Science and Business Analytics** at the University of Economics — The University of Danang; currently pursuing an **MBA**.
-- ⚡ Independently proposed and built an **electricity advisory chatbot prototype** during my graduation project and business department internship.
-- 📊 My academic work includes **sales dashboards, customer segmentation and menu personalization**.
-- 🌱 Interested in deepening my skills in **RAG evaluation, reliable data pipelines and requirements documentation**.
-- 🤝 Interested in **internship and entry-level opportunities** in applied AI, data analytics and technology-focused business analysis.
+**Open to internship and entry-level opportunities:** Applied AI · Data Analytics · Business Analysis
 
-<a id="selected-work"></a>
+## Featured demo
 
-### Selected work
+<table>
+<tr><td>
+<h3>Teaching Attendance Web App · Điểm danh suất dạy</h3>
+<p><b>A practical tool for managing teaching sessions.</b> Browse a monthly calendar, choose a teacher, record time slots and track session totals by day and month.</p>
+<p><code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>Google Apps Script</code> <code>Google Sheets</code></p>
+<p><b>Try it:</b> Choose a sample teacher → select a day → choose time slots → save → update or delete the sample record.</p>
+<p><a href="https://bigbaboy.github.io/teaching-attendance-webapp/"><b>▶ Open interactive demo</b></a> &nbsp; · &nbsp; <a href="https://github.com/bigbaboy/teaching-attendance-webapp">View code &amp; walkthrough ↗</a></p>
+<p><sub>The public demo uses synthetic data stored in memory. It resets on reload and does not access the original Google Sheets application.</sub></p>
+</td></tr>
+</table>
+
+## Selected projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3>01 · Electricity RAG Chatbot</h3>
-<p><b>Individual graduation project</b></p>
-<p>A Vietnamese document assistant with source references, electricity billing calculations, appliance consumption analysis and solar estimates.</p>
-<p>I proposed the topic, documented the scope and flows, and implemented the prototype. Numerical calculations run in Python separately from generated answers.</p>
-<p><code>Python</code> <code>Streamlit</code> <code>LangChain</code> <code>FAISS</code> <code>Groq API</code></p>
-<p><a href="https://github.com/bigbaboy/danang-electricity-rag-chatbot"><b>Explore project →</b></a> · <a href="https://github.com/bigbaboy/danang-electricity-rag-chatbot/blob/main/docs/architecture.md">Architecture</a></p>
+<h3>01 / Electricity RAG Chatbot</h3>
+<p><b>Individual graduation project · Applied AI</b></p>
+<p>A Vietnamese document assistant with cited answers, electricity billing calculations, consumption analysis and solar estimates.</p>
+<p><b>My work:</b> Topic proposal, scope and flow documentation, retrieval pipeline, LLM integration and calculation logic.</p>
+<p><code>Python</code> <code>Streamlit</code> <code>LangChain</code> <code>FAISS</code> <code>Groq</code></p>
+<p><a href="https://github.com/bigbaboy/danang-electricity-rag-chatbot"><b>Repository ↗</b></a> · <a href="https://github.com/bigbaboy/danang-electricity-rag-chatbot/blob/main/docs/architecture.md">Architecture</a></p>
 </td>
 <td width="50%" valign="top">
-<h3>02 · Sales Analytics</h3>
-<p><b>Academic web application</b></p>
-<p>A CSV-to-dashboard workflow connecting relational data models, analytical queries and interactive sales visualizations.</p>
-<p>Explore revenue by product and time period, product-group purchase patterns and customer purchase frequency.</p>
+<h3>02 / Sales Analytics</h3>
+<p><b>Academic web application · Data analytics</b></p>
+<p>A CSV-to-dashboard workflow for exploring product revenue, sales trends and customer purchase frequency.</p>
+<p><b>Focus:</b> Relational modeling, Django ORM aggregations and interactive chart presentation.</p>
 <p><code>Python</code> <code>Django</code> <code>SQLite</code> <code>D3.js</code></p>
-<p><a href="https://github.com/bigbaboy/sales-analytics-django-sqlite"><b>Explore project →</b></a> · <a href="https://github.com/bigbaboy/sales-analytics-django-sqlite/blob/main/docs/data-model.md">Data model</a></p>
+<p><a href="https://github.com/bigbaboy/sales-analytics-django-sqlite"><b>Repository ↗</b></a> · <a href="https://github.com/bigbaboy/sales-analytics-django-sqlite/blob/main/docs/data-model.md">Data model</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3>03 · Menu Personalization</h3>
-<p><b>Three-person academic project</b></p>
-<p>A restaurant prototype that uses behavioral features and KMeans to explore customer segments and menu suggestions.</p>
-<p>Contributed to the team deliverable, which places recommendations across five menu zones and visualizes segment distributions.</p>
-<p><code>Python</code> <code>pandas</code> <code>scikit-learn</code> <code>Streamlit</code> <code>Plotly</code></p>
-<p><a href="https://github.com/bigbaboy/customer-segmentation-menu-personalization"><b>Explore project →</b></a> · <a href="https://github.com/bigbaboy/customer-segmentation-menu-personalization/blob/main/docs/flow.md">Implementation flow</a></p>
+<h3>03 / Menu Personalization</h3>
+<p><b>Three-person academic project · Machine learning</b></p>
+<p>Customer segmentation using behavioral features and KMeans, with menu suggestions arranged across five interface zones.</p>
+<p><b>Contribution:</b> Participated in the team prototype; the repository documents the shared implementation.</p>
+<p><code>pandas</code> <code>scikit-learn</code> <code>Streamlit</code> <code>Plotly</code></p>
+<p><a href="https://github.com/bigbaboy/customer-segmentation-menu-personalization"><b>Repository ↗</b></a> · <a href="https://github.com/bigbaboy/customer-segmentation-menu-personalization/blob/main/docs/flow.md">Workflow</a></p>
 </td>
 <td width="50%" valign="top">
-<h3>04 · Superstore Dashboard</h3>
-<p><b>Academic team project</b></p>
-<p>A business dashboard exploring sales, profitability, purchase frequency, discounts and returns.</p>
-<p>The team deliverable connects commercial questions with descriptive visualizations across products, locations and customer segments.</p>
+<h3>04 / Superstore Dashboard</h3>
+<p><b>Academic team project · Business intelligence</b></p>
+<p>Descriptive views of sales, profitability, customer segments, discounts and returns.</p>
+<p><b>Focus:</b> Turning commercial questions into visual comparisons across locations, products and customer groups.</p>
 <p><code>Django</code> <code>D3.js</code> <code>JavaScript</code> <code>CSV</code></p>
-<p><a href="https://github.com/bigbaboy/superstore-business-dashboard"><b>Explore project →</b></a></p>
+<p><a href="https://github.com/bigbaboy/superstore-business-dashboard"><b>Repository ↗</b></a></p>
 </td>
 </tr>
 </table>
 
-<sub>These are academic projects and prototypes. Repository documentation describes implementation scope, limitations and individual or team context.</sub>
+<sub>Academic projects and prototypes; individual and team roles are stated separately. Repository READMEs include setup instructions and implementation limitations.</sub>
 
-<a id="toolkit"></a>
+## Toolkit
 
-### Toolkit
+| Data & analytics | Applied AI & ML | Web & visualization | Business workflow |
+| :--- | :--- | :--- | :--- |
+| Python · pandas | RAG · LangChain · FAISS | Django · Streamlit | Draw.io · Figma |
+| SQL · SQLite | LLM API integration | HTML · CSS · JavaScript | Process diagrams |
+| Excel · Google Sheets | scikit-learn · KMeans | D3.js · Plotly | Git · GitHub |
+| Power BI · Tableau | Embeddings | Google Apps Script | Requirements documentation |
 
-| Area | Tools and concepts I've used |
-| :--- | :--- |
-| **Data & analysis** | Python · pandas · SQL · Excel · Google Sheets |
-| **Applied AI & ML** | RAG · LangChain · FAISS · LLM APIs · scikit-learn · KMeans |
-| **Applications & visualization** | Streamlit · Django · SQLite · D3.js · Plotly · Power BI · Tableau |
-| **Planning & collaboration** | Git · GitHub · Draw.io process flows · Figma |
+### How I work
 
-### How I approach a project
+**Business question → workflow → data → prototype → validation → documentation**
 
-**Understand the question → map the workflow → prepare the data → build a prototype → validate and document.**
+I’m developing stronger skills in RAG evaluation, reliable data pipelines and requirements analysis.
 
-I'm interested in making the connection between a business problem and a technical solution clear, while being honest about what has been implemented and what still needs work.
-
----
-
-<p align="center">
-  <b>Building practical skills, one well-documented project at a time.</b><br/>
-  <sub>Lê Minh Đạt · @bigbaboy</sub>
-</p>
-
+<p align="center"><sub>Lê Minh Đạt · Building practical skills through working, documented projects.</sub></p>
