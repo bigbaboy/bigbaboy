@@ -5,6 +5,7 @@
 <p align="center"><b>Data Science &amp; Business Analytics graduate · MBA student · Da Nang, Vietnam</b></p>
 <p align="center">I build prototypes that connect business needs, data and useful software.</p>
 <p align="center">
+<a href="https://bigbaboy.github.io/"><b>Visit my portfolio ↗</b></a> &nbsp; · &nbsp;
 <a href="#featured-demo"><b>▶ Try the attendance demo</b></a> &nbsp; · &nbsp;
 <a href="#selected-projects">Selected projects</a> &nbsp; · &nbsp;
 <a href="#toolkit">Toolkit</a> &nbsp; · &nbsp;
